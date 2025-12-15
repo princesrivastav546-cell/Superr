@@ -13,12 +13,12 @@ from telegram.ext import (
 from dotenv import dotenv_values
 
 # --- CONFIGURATION (LOAD FROM RENDER ENV) ---
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("8291407561:AAGjhzrpwokeNkHz3_Fh9mMBHegvfAnqXpQ")
 # If ADMIN_ID is not set in Render, it defaults to 0 (nobody can access)
 try:
     ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
 except ValueError:
-    ADMIN_ID = 0
+    ADMIN_ID = 5631512980
 
 TEMP_DIR = "./temp_runs"
 
