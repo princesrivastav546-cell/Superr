@@ -1,7 +1,7 @@
 import telebot
 import requests
 
-TOKEN = "7866384372:AAF2X-5RgiulWFm0FSRQc_87EGg8Wh7vpow"
+TOKEN = "BOT"
 API_URL = "https://nggemini.tiiny.io/?prompt="
 
 bot = telebot.TeleBot(TOKEN)
